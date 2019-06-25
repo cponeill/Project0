@@ -31,7 +31,7 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="3" x="5.1625e-1" y="8.153846153846154e-1">
+  <FILTER uid="3" x="2.9e-1" y="6.576923076923077e-1">
     <PLUGIN name="Audio Output" descriptiveName="" format="Internal" category="I/O devices"
             manufacturer="ROLI Ltd." version="1.0" file="" uid="724248cb"
             isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="2"
@@ -46,10 +46,10 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="4" x="2.8125e-1" y="3.576923076923077e-1">
+  <FILTER uid="4" x="3.0875e-1" y="4.019230769230769e-1">
     <PLUGIN name="Project0" format="VST3" category="Instrument|Synth" manufacturer="yourcompany"
-            version="1.0.0" file="/Users/caseyoneill/Library/Audio/Plug-Ins/VST3/Project0.vst3"
-            uid="acf537a1" isInstrument="1" fileTime="16b8c0a51d8" infoUpdateTime="16b8c121ce6"
+            version="1.0.0" file="/Users/cponeill/Library/Audio/Plug-Ins/VST3/Project0.vst3"
+            uid="acf537a1" isInstrument="1" fileTime="16b904c4d00" infoUpdateTime="16b904e06a6"
             numInputs="0" numOutputs="2" isShell="0"/>
     <STATE>152.VMjLg7H....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
     <LAYOUT>
