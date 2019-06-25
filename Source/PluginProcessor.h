@@ -8,6 +8,12 @@
   ==============================================================================
 */
 
+/*
+ TODO:
+ click anywhere on the window, and play a note
+ if you click and drag, it'll change the pitch of the note
+ */
+
 #pragma once
 
 #include "../JuceLibraryCode/JuceHeader.h"
