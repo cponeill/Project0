@@ -30,7 +30,7 @@ void Project0AudioProcessorEditor::paint (Graphics& g)
     // (Our component is opaque, so we must completely fill the background with a solid colour)
     g.fillAll (getLookAndFeel().findColour (ResizableWindow::backgroundColourId));
 
-    g.setColour (Colours::white);
+    g.setColour (Colours::green);
     g.setFont (15.0f);
     g.drawFittedText ("Hello World!", getLocalBounds(), Justification::centred, 1);
 }
