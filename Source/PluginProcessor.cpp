@@ -155,8 +155,8 @@ void Project0AudioProcessor::processBlock (AudioBuffer<float>& buffer, MidiBuffe
     
     Random r;
     
-    for ( int i = 0; i < buffer.getNumSamples(); i++) {
-        for ( int channel = 0; channel < buffer.getNumChannels(); channel++) {
+    for (int i = 0; i < buffer.getNumSamples(); i++) {
+        for (int channel = 0; channel < buffer.getNumChannels(); channel++) {
             if (shouldPlaySound) {
                 buffer.setSample(channel, i, r.nextFloat());
             } else {
