@@ -151,16 +151,14 @@ void Project0AudioProcessor::processBlock (AudioBuffer<float>& buffer, MidiBuffe
     // Alternatively, you can process the samples with the channels
     // interleaved by keeping the same state.
     
-    // Random noise generator (white noise generator)
-    Random r;
-    
+
     // Loop through number of samples
     for (int i = 0; i < buffer.getNumSamples(); i++) {
         // Loop through number of channels
         for (int channel = 0; channel < buffer.getNumChannels(); channel++) {
             if (shouldPlaySound) {
                 // random sample assigned to next float
-                buffer.setSample(channel, i, r.nextFloat());
+                buffer.setSample(channel, i, this->r.nextFloat());
             } else {
                 // random sample set to 0
                 buffer.setSample(channel, i, 0);

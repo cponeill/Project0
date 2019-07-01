@@ -11,6 +11,7 @@
 #include "PluginProcessor.h"
 #include "PluginEditor.h"
 
+
 //==============================================================================
 Project0AudioProcessorEditor::Project0AudioProcessorEditor (Project0AudioProcessor& p)
     : AudioProcessorEditor (&p), processor (p)
