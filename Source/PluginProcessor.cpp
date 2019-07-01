@@ -151,7 +151,6 @@ void Project0AudioProcessor::processBlock (AudioBuffer<float>& buffer, MidiBuffe
     // Alternatively, you can process the samples with the channels
     // interleaved by keeping the same state.
     
-
     // Loop through number of samples
     for (int i = 0; i < buffer.getNumSamples(); i++) {
         // Loop through number of channels
