@@ -152,9 +152,11 @@ void Project0AudioProcessor::processBlock (AudioBuffer<float>& buffer, MidiBuffe
     // interleaved by keeping the same state.
     
     // Loop through number of samples
-    for (int i = 0; i < buffer.getNumSamples(); i++) {
+    for (int i = 0; i < buffer.getNumSamples(); i++)
+    {
         // Loop through number of channels
-        for (int channel = 0; channel < buffer.getNumChannels(); channel++) {
+        for (int channel = 0; channel < buffer.getNumChannels(); channel++)
+        {
             if (shouldPlaySound) {
                 // random sample assigned to next float
                 buffer.setSample(channel, i, this->r.nextFloat());
