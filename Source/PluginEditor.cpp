@@ -45,10 +45,12 @@ void Project0AudioProcessorEditor::resized()
 void Project0AudioProcessorEditor::mouseUp(const MouseEvent &e)
 {
     DBG( "Mouse Up" );
+    processor.shouldPlaySound = false;
 }
 
 
 void Project0AudioProcessorEditor::mouseDown(const MouseEvent &e)
 {
     DBG( "Mouse Down" );
+    processor.shouldPlaySound = true;
 }
