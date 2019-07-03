@@ -12,7 +12,6 @@
  TODO:
  click anywhere on the window, and play a note
  if you click and drag, it'll change the pitch of the note
- should we play a sound?
  */
 
 #pragma once
@@ -64,7 +63,7 @@ public:
 
 private:
     
-    bool shouldPlaySound = true;
+    bool shouldPlaySound = false;
     Random r;
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (Project0AudioProcessor)

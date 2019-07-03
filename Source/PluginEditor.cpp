@@ -41,3 +41,14 @@ void Project0AudioProcessorEditor::resized()
     // This is generally where you'll want to lay out the positions of any
     // subcomponents in your editor..
 }
+
+void Project0AudioProcessorEditor::mouseUp(const MouseEvent &e)
+{
+    DBG( "Mouse Up" );
+}
+
+
+void Project0AudioProcessorEditor::mouseDown(const MouseEvent &e)
+{
+    DBG( "Mouse Down" );
+}
