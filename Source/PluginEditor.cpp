@@ -23,6 +23,7 @@ Project0AudioProcessorEditor::Project0AudioProcessorEditor (Project0AudioProcess
 
 Project0AudioProcessorEditor::~Project0AudioProcessorEditor()
 {
+    processor.shouldPlaySound = false;
 }
 
 //==============================================================================
@@ -44,11 +45,11 @@ void Project0AudioProcessorEditor::resized()
 
 void Project0AudioProcessorEditor::mouseUp(const MouseEvent &e)
 {
-    processor.shouldPlaySound = false;
+    processor.shouldPlaySound = !processor.shouldPlaySound;
 }
 
 
 void Project0AudioProcessorEditor::mouseDown(const MouseEvent &e)
 {
-    processor.shouldPlaySound = true;
+    //processor.shouldPlaySound = true;
 }
