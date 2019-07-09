@@ -197,6 +197,13 @@ void Project0AudioProcessor::setStateInformation (const void* data, int sizeInBy
     // whose contents will have been created by the getStateInformation() call.
 }
 
+void Project0AudioProcessor::UpdateAutomatableParamater(RangedAudioParameter * param, float value)
+{
+    param->beginChangeGesture();
+    param->setValueNotifyingHost( value );
+    param->endChangeGesture();
+}
+
 //==============================================================================
 // This creates new instances of the plugin..
 AudioProcessor* JUCE_CALLTYPE createPluginFilter()
