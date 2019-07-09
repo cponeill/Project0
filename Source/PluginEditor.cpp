@@ -24,6 +24,9 @@ Project0AudioProcessorEditor::Project0AudioProcessorEditor (Project0AudioProcess
 Project0AudioProcessorEditor::~Project0AudioProcessorEditor()
 {
     //processor.shouldPlaySound = false;
+    processor.shouldPlaySound->beginChangeGesture();
+    processor.shouldPlaySound->setValueNotifyingHost(false);
+    processor.shouldPlaySound->endChangeGesture();
 };
 
 //==============================================================================
@@ -45,7 +48,9 @@ void Project0AudioProcessorEditor::resized()
 
 void Project0AudioProcessorEditor::mouseUp(const MouseEvent &e)
 {
+    processor.shouldPlaySound->beginChangeGesture();
     processor.shouldPlaySound->setValueNotifyingHost(!processor.shouldPlaySound->get());
+    processor.shouldPlaySound->endChangeGesture();
 }
 
 
