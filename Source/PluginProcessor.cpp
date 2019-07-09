@@ -23,7 +23,10 @@ Project0AudioProcessor::Project0AudioProcessor()
                      #endif
                        )
 #endif
+//shouldPlaySound("ShouldPlaySoundParam", "ShouldPlaySound", false)
 {
+    shouldPlaySound = new AudioParameterBool("ShouldPlaySoundParam", "ShouldPlaySound", false);
+    addParameter(shouldPlaySound);
 }
 
 Project0AudioProcessor::~Project0AudioProcessor()

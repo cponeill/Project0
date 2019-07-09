@@ -24,7 +24,7 @@ Project0AudioProcessorEditor::Project0AudioProcessorEditor (Project0AudioProcess
 Project0AudioProcessorEditor::~Project0AudioProcessorEditor()
 {
     processor.shouldPlaySound = false;
-}
+};
 
 //==============================================================================
 void Project0AudioProcessorEditor::paint (Graphics& g)

@@ -11,11 +11,14 @@
 #pragma once
 
 #include "../JuceLibraryCode/JuceHeader.h"
-#include "PluginProcessor.h"
+//#include "PluginProcessor.h"
+
 
 //==============================================================================
 /**
 */
+struct Project0AudioProcessor;
+
 class Project0AudioProcessorEditor  : public AudioProcessorEditor
 {
 public:
