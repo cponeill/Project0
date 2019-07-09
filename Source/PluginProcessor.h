@@ -62,6 +62,8 @@ public:
     void setStateInformation (const void* data, int sizeInBytes) override;
     AudioParameterBool* shouldPlaySound = nullptr;// = false;
     
+    static void UpdateAutomatableParamater(RangedAudioParameter*, float value);
+    
 private:
     
     Random r;
